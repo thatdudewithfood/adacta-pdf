@@ -1,15 +1,15 @@
 {
   "categories": {
     "popularTools": "Priljubljena orodja",
-    "editAnnotate": "Uredi in opombi",
-    "convertToPdf": "Pretvori v PDF",
-    "convertFromPdf": "Pretvori iz PDF",
+    "editAnnotate": "Urejanje datotek",
+    "convertToPdf": "Pretvori v PDF iz ...",
+    "convertFromPdf": "Pretvori iz PDF v ...",
     "organizeManage": "Organiziraj in upravljaj",
     "optimizeRepair": "Optimiziraj in popravi",
     "securePdf": "Zavaruj PDF"
   },
   "pdfMultiTool": {
-    "name": "PDF Multi Orodje",
+    "name": "PDF urejevalnik",
     "subtitle": "Združi, razdeli, organiziraj, izbriši, zavrti, dodaj prazne strani, izvleči in podvoji v enotnem vmesniku."
   },
   "mergePdf": {
