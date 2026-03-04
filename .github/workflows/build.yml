@@ -35,6 +35,8 @@ jobs:
           build-args: |
             SIMPLE_MODE=true
             VITE_DEFAULT_LANGUAGE=sl
+            VITE_BRAND_NAME=Ad Acta PDF
+            VITE_FOOTER_TEXT=PDF orodja za najboljše računovodje.
           platforms: linux/amd64
           cache-from: type=gha
           cache-to: type=gha,mode=max
