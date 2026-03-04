@@ -37,6 +37,7 @@ jobs:
             VITE_DEFAULT_LANGUAGE=sl
             VITE_BRAND_NAME=Ad Acta PDF
             VITE_FOOTER_TEXT=PDF orodja za najboljše računovodje.
+            VITE_BRAND_LOGO=public/Ad-Acta-logotip-1.svg
           platforms: linux/amd64
           cache-from: type=gha
           cache-to: type=gha,mode=max
