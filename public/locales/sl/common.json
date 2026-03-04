@@ -56,7 +56,7 @@
     "title": "Začnite z",
     "toolsLabel": "Orodji",
     "subtitle": "Kliknite orodje za odpiranje nalagalnika datotek",
-    "searchPlaceholder": "Poiščite orodje (npr. 'razdeli', 'uredi'...)",
+    "searchPlaceholder": "Prični z iskanjem orodja, ki ga potrebuješ ...",
     "backToTools": "Nazaj na orodja",
     "firstLoadNotice": "Prvo nalaganje traja trenutek, ker prenašamo naš pretvornik. Po tem bodo vsa nalaganja takojšnja."
   },
@@ -130,8 +130,8 @@
     "fullWidthMode": "Način polne širine",
     "fullWidthDescription": "Uporabite celotno širino zaslona za vsa orodja namesto osredinjene vsebine",
     "settingsAutoSaved": "Nastavitve se samodejno shranjujejo",
-    "clickToSet": "Kliknite za nastavitev",
-    "pressKeys": "Pritisnite tipke...",
+    "clickToSet": "Nastavi ...",
+    "pressKeys": "Katera tipka?",
     "warnings": {
       "alreadyInUse": "Bližnjica je že v uporabi",
       "assignedTo": "je že dodeljena:",
@@ -348,7 +348,7 @@
       "toggleSplit": "Preklopi razdelitev za to stran"
     },
     "pleaseWait": "Prosimo, počakajte",
-    "pagesRendering": "Strani se še upodabljajo. Prosimo, počakajte...",
+    "pagesRendering": "Strani se še nalagajo. Prosimo, počakajte...",
     "noPagesSelected": "Nobena stran ni izbrana",
     "selectOnePage": "Prosimo, izberite vsaj eno stran za prenos.",
     "noPages": "Ni strani",
