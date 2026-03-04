@@ -1,0 +1,631 @@
+{
+  "categories": {
+    "popularTools": "Priljubljena orodja",
+    "editAnnotate": "Uredi in opombi",
+    "convertToPdf": "Pretvori v PDF",
+    "convertFromPdf": "Pretvori iz PDF",
+    "organizeManage": "Organiziraj in upravljaj",
+    "optimizeRepair": "Optimiziraj in popravi",
+    "securePdf": "Zavaruj PDF"
+  },
+  "pdfMultiTool": {
+    "name": "PDF Multi Orodje",
+    "subtitle": "Združi, razdeli, organiziraj, izbriši, zavrti, dodaj prazne strani, izvleči in podvoji v enotnem vmesniku."
+  },
+  "mergePdf": {
+    "name": "Združi PDF",
+    "subtitle": "Združite več PDF-jev v eno datoteko. Ohrani zaznamke."
+  },
+  "splitPdf": {
+    "name": "Razdeli PDF",
+    "subtitle": "Izvlecite obseg strani v nov PDF."
+  },
+  "compressPdf": {
+    "name": "Stisni PDF",
+    "subtitle": "Zmanjšajte velikost datoteke PDF.",
+    "algorithmLabel": "Algoritem stiskanja",
+    "condense": "Kondenzacija (priporočeno)",
+    "photon": "Foton (za PDF-je s fotografijami)",
+    "condenseInfo": "Kondenzacija uporablja napredno stiskanje: odstrani odvečne podatke, optimizira slike, podmnožica pisave. Najboljše za večino PDF-jev.",
+    "photonInfo": "Foton pretvori strani v slike. Uporabite za PDF-je s fotografijami ali skenirane dokumente.",
+    "photonWarning": "Opozorilo: Besedilo ne bo več izbirljivo in povezave ne bodo delovale.",
+    "levelLabel": "Stopnja stiskanja",
+    "light": "Lahka (ohrani kakovost)",
+    "balanced": "Uravnotežena (priporočeno)",
+    "aggressive": "Agresivna (manjše datoteke)",
+    "extreme": "Ekstremna (največje stiskanje)",
+    "grayscale": "Pretvori v sivine",
+    "grayscaleHint": "Zmanjša velikost datoteke z odstranitvijo barvnih informacij",
+    "customSettings": "Napredne nastavitve",
+    "customSettingsHint": "Natančno nastavite parametre stiskanja:",
+    "outputQuality": "Kakovost izhoda",
+    "resizeImagesTo": "Spremeni velikost slik na",
+    "onlyProcessAbove": "Obdelaj samo nad",
+    "removeMetadata": "Odstrani metapodatke",
+    "subsetFonts": "Podmnožica pisav (odstrani neuporabljene znake)",
+    "removeThumbnails": "Odstrani vgrajene sličice",
+    "compressButton": "Stisni PDF"
+  },
+  "pdfEditor": {
+    "name": "Urejevalnik PDF",
+    "subtitle": "Opombi, označi, cenzuriraj, komentiraj, dodaj oblike/slike, išči in pregleduj PDF-je."
+  },
+  "jpgToPdf": {
+    "name": "JPG v PDF",
+    "subtitle": "Ustvarite PDF iz slik JPG, JPEG in JPEG2000 (JP2/JPX)."
+  },
+  "signPdf": {
+    "name": "Podpiši PDF",
+    "subtitle": "Narišite, vtipkajte ali naložite svoj podpis."
+  },
+  "cropPdf": {
+    "name": "Obreži PDF",
+    "subtitle": "Obrežite robove vsake strani v PDF-ju."
+  },
+  "extractPages": {
+    "name": "Izvleči strani",
+    "subtitle": "Shranite izbor strani kot nove datoteke."
+  },
+  "duplicateOrganize": {
+    "name": "Podvoji in organiziraj",
+    "subtitle": "Podvojite, preuredite in izbrišite strani."
+  },
+  "deletePages": {
+    "name": "Izbriši strani",
+    "subtitle": "Odstranite določene strani iz dokumenta."
+  },
+  "editBookmarks": {
+    "name": "Uredi zaznamke",
+    "subtitle": "Dodajte, uredite, uvozite, izbrišite in izvlecite zaznamke PDF."
+  },
+  "tableOfContents": {
+    "name": "Kazalo vsebine",
+    "subtitle": "Ustvarite stran s kazalom vsebine iz zaznamkov PDF."
+  },
+  "pageNumbers": {
+    "name": "Številke strani",
+    "subtitle": "Vstavite številke strani v dokument."
+  },
+  "batesNumbering": {
+    "name": "Batesovo oštevilčevanje",
+    "subtitle": "Dodajte zaporedne Batesove številke v eno ali več PDF datotek."
+  },
+  "addWatermark": {
+    "name": "Dodaj vodni žig",
+    "subtitle": "Žigosajte besedilo ali sliko na strani PDF-ja.",
+    "applyToAllPages": "Uporabi na vseh straneh"
+  },
+  "headerFooter": {
+    "name": "Glava in noga",
+    "subtitle": "Dodajte besedilo na vrh in dno strani."
+  },
+  "invertColors": {
+    "name": "Obrni barve",
+    "subtitle": "Ustvarite različico PDF-ja v \"temnem načinu\"."
+  },
+  "scannerEffect": {
+    "name": "Efekt skenerja",
+    "subtitle": "Naredite PDF videti kot skeniran dokument.",
+    "scanSettings": "Nastavitve skeniranja",
+    "colorspace": "Barvni prostor",
+    "gray": "Sivo",
+    "border": "Rob",
+    "rotate": "Zavrti",
+    "rotateVariance": "Varianca vrtenja",
+    "brightness": "Svetlost",
+    "contrast": "Kontrast",
+    "blur": "Zameglitev",
+    "noise": "Šum",
+    "yellowish": "Rumenkasto",
+    "resolution": "Ločljivost",
+    "processButton": "Uporabi efekt skenerja"
+  },
+  "adjustColors": {
+    "name": "Nastavi barve",
+    "subtitle": "Natančno nastavite svetlost, kontrast, nasičenost in več v PDF-ju.",
+    "colorSettings": "Barvne nastavitve",
+    "brightness": "Svetlost",
+    "contrast": "Kontrast",
+    "saturation": "Nasičenost",
+    "hueShift": "Premik odtenka",
+    "temperature": "Temperatura",
+    "tint": "Odtenek",
+    "gamma": "Gama",
+    "sepia": "Sepija",
+    "processButton": "Uporabi barvne prilagoditve"
+  },
+  "backgroundColor": {
+    "name": "Barva ozadja",
+    "subtitle": "Spremenite barvo ozadja PDF-ja."
+  },
+  "changeTextColor": {
+    "name": "Spremeni barvo besedila",
+    "subtitle": "Spremenite barvo besedila v PDF-ju."
+  },
+  "addStamps": {
+    "name": "Dodaj žige",
+    "subtitle": "Dodajte slikovne žige v PDF z orodjarno opomb.",
+    "usernameLabel": "Uporabniško ime žiga",
+    "usernamePlaceholder": "Vnesite svoje ime (za žige)",
+    "usernameHint": "To ime bo prikazano na žigih, ki jih ustvarite."
+  },
+  "removeAnnotations": {
+    "name": "Odstrani opombe",
+    "subtitle": "Odstranite komentarje, oznake in povezave."
+  },
+  "pdfFormFiller": {
+    "name": "Izpolnjevalnik PDF obrazcev",
+    "subtitle": "Izpolnite obrazce neposredno v brskalniku. Podpira tudi XFA obrazce."
+  },
+  "createPdfForm": {
+    "name": "Ustvari PDF obrazec",
+    "subtitle": "Ustvarite izpolnljive PDF obrazce s tekstovnimi polji povleci in spusti."
+  },
+  "removeBlankPages": {
+    "name": "Odstrani prazne strani",
+    "subtitle": "Samodejno zazna in izbriše prazne strani.",
+    "sensitivityHint": "Višje = strožje, samo popolnoma prazne strani. Nižje = dovoli strani z nekaj vsebine."
+  },
+  "imageToPdf": {
+    "name": "Slike v PDF",
+    "subtitle": "Pretvorite JPG, PNG, BMP, GIF, TIFF, PNM, PGM, PBM, PPM, PAM, JXR, JPX, JP2, PSD, SVG, HEIC, WebP v PDF."
+  },
+  "pngToPdf": {
+    "name": "PNG v PDF",
+    "subtitle": "Ustvarite PDF iz ene ali več slik PNG."
+  },
+  "webpToPdf": {
+    "name": "WebP v PDF",
+    "subtitle": "Ustvarite PDF iz ene ali več slik WebP."
+  },
+  "svgToPdf": {
+    "name": "SVG v PDF",
+    "subtitle": "Ustvarite PDF iz ene ali več slik SVG."
+  },
+  "bmpToPdf": {
+    "name": "BMP v PDF",
+    "subtitle": "Ustvarite PDF iz ene ali več slik BMP."
+  },
+  "heicToPdf": {
+    "name": "HEIC v PDF",
+    "subtitle": "Ustvarite PDF iz ene ali več slik HEIC."
+  },
+  "tiffToPdf": {
+    "name": "TIFF v PDF",
+    "subtitle": "Ustvarite PDF iz ene ali več slik TIFF."
+  },
+  "textToPdf": {
+    "name": "Besedilo v PDF",
+    "subtitle": "Pretvorite navadno besedilno datoteko v PDF."
+  },
+  "jsonToPdf": {
+    "name": "JSON v PDF",
+    "subtitle": "Pretvorite datoteke JSON v format PDF."
+  },
+  "pdfToJpg": {
+    "name": "PDF v JPG",
+    "subtitle": "Pretvorite vsako stran PDF-ja v sliko JPG."
+  },
+  "pdfToPng": {
+    "name": "PDF v PNG",
+    "subtitle": "Pretvorite vsako stran PDF-ja v sliko PNG."
+  },
+  "pdfToWebp": {
+    "name": "PDF v WebP",
+    "subtitle": "Pretvorite vsako stran PDF-ja v sliko WebP."
+  },
+  "pdfToBmp": {
+    "name": "PDF v BMP",
+    "subtitle": "Pretvorite vsako stran PDF-ja v sliko BMP."
+  },
+  "pdfToTiff": {
+    "name": "PDF v TIFF",
+    "subtitle": "Pretvorite vsako stran PDF-ja v sliko TIFF."
+  },
+  "pdfToGreyscale": {
+    "name": "PDF v sivine",
+    "subtitle": "Pretvorite vse barve v črno-belo."
+  },
+  "pdfToJson": {
+    "name": "PDF v JSON",
+    "subtitle": "Pretvorite datoteke PDF v format JSON."
+  },
+  "ocrPdf": {
+    "name": "OCR PDF",
+    "subtitle": "Naredite PDF iskalen in kopirljiv."
+  },
+  "alternateMix": {
+    "name": "Izmenjaj in mešaj strani",
+    "subtitle": "Združite PDF-je z izmenjevanjem strani. Ohrani zaznamke."
+  },
+  "addAttachments": {
+    "name": "Dodaj priloge",
+    "subtitle": "Vgradite eno ali več datotek v PDF."
+  },
+  "extractAttachments": {
+    "name": "Izvleči priloge",
+    "subtitle": "Izvlecite vse vgrajene datoteke iz PDF-jev kot ZIP."
+  },
+  "editAttachments": {
+    "name": "Uredi priloge",
+    "subtitle": "Oglejte si ali odstranite priloge v PDF-ju."
+  },
+  "dividePages": {
+    "name": "Razdeli strani",
+    "subtitle": "Razdelite strani vodoravno ali navpično."
+  },
+  "addBlankPage": {
+    "name": "Dodaj prazno stran",
+    "subtitle": "Vstavite prazno stran kjerkoli v PDF."
+  },
+  "reversePages": {
+    "name": "Obrni vrstni red strani",
+    "subtitle": "Obrnite vrstni red vseh strani v dokumentu."
+  },
+  "rotatePdf": {
+    "name": "Zavrti PDF",
+    "subtitle": "Zavrtite strani v korakih po 90 stopinj."
+  },
+  "rotateCustom": {
+    "name": "Zavrti za poljuben kot",
+    "subtitle": "Zavrtite strani za katerikoli kot."
+  },
+  "nUpPdf": {
+    "name": "N-na-1 PDF",
+    "subtitle": "Razporedite več strani na en list."
+  },
+  "combineToSinglePage": {
+    "name": "Združi na eno stran",
+    "subtitle": "Zložite vse strani v eno neprekinjeno stran."
+  },
+  "viewMetadata": {
+    "name": "Prikaži metapodatke",
+    "subtitle": "Preglejte skrite lastnosti PDF-ja."
+  },
+  "editMetadata": {
+    "name": "Uredi metapodatke",
+    "subtitle": "Spremenite avtorja, naslov in druge lastnosti."
+  },
+  "pdfsToZip": {
+    "name": "PDF-ji v ZIP",
+    "subtitle": "Zapakirajte več PDF datotek v ZIP arhiv."
+  },
+  "comparePdfs": {
+    "name": "Primerjaj PDF-je",
+    "subtitle": "Primerjajte dva PDF-ja drug ob drugem."
+  },
+  "posterizePdf": {
+    "name": "Posterizacija PDF",
+    "subtitle": "Razdelite veliko stran na več manjših strani."
+  },
+  "fixPageSize": {
+    "name": "Popravi velikost strani",
+    "subtitle": "Poenotite vse strani na enako velikost."
+  },
+  "linearizePdf": {
+    "name": "Linearizacija PDF",
+    "subtitle": "Optimizirajte PDF za hitro spletno pregledovanje."
+  },
+  "pageDimensions": {
+    "name": "Dimenzije strani",
+    "subtitle": "Analizirajte velikost, usmerjenost in enote strani."
+  },
+  "removeRestrictions": {
+    "name": "Odstrani omejitve",
+    "subtitle": "Odstranite zaščito z geslom in varnostne omejitve povezane z digitalno podpisanimi PDF datotekami."
+  },
+  "repairPdf": {
+    "name": "Popravi PDF",
+    "subtitle": "Obnovite podatke iz poškodovanih ali okvarjenih PDF datotek."
+  },
+  "encryptPdf": {
+    "name": "Šifriraj PDF",
+    "subtitle": "Zavarujte PDF z dodajanjem gesla."
+  },
+  "sanitizePdf": {
+    "name": "Sanitiziraj PDF",
+    "subtitle": "Odstranite metapodatke, opombe, skripte in več."
+  },
+  "decryptPdf": {
+    "name": "Dešifriraj PDF",
+    "subtitle": "Odklenite PDF z odstranitvijo zaščite z geslom."
+  },
+  "flattenPdf": {
+    "name": "Splošči PDF",
+    "subtitle": "Naredite polja obrazcev in opombe neurejevalne."
+  },
+  "removeMetadata": {
+    "name": "Odstrani metapodatke",
+    "subtitle": "Odstranite skrite podatke iz PDF-ja."
+  },
+  "changePermissions": {
+    "name": "Spremeni dovoljenja",
+    "subtitle": "Nastavite ali spremenite dovoljenja uporabnikov za PDF."
+  },
+  "odtToPdf": {
+    "name": "ODT v PDF",
+    "subtitle": "Pretvorite datoteke OpenDocument Text v PDF. Podpira več datotek.",
+    "acceptedFormats": "ODT datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "csvToPdf": {
+    "name": "CSV v PDF",
+    "subtitle": "Pretvorite preglednice CSV v PDF. Podpira več datotek.",
+    "acceptedFormats": "CSV datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "rtfToPdf": {
+    "name": "RTF v PDF",
+    "subtitle": "Pretvorite dokumente RTF v PDF. Podpira več datotek.",
+    "acceptedFormats": "RTF datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "wordToPdf": {
+    "name": "Word v PDF",
+    "subtitle": "Pretvorite Wordove dokumente (DOCX, DOC, ODT, RTF) v PDF. Podpira več datotek.",
+    "acceptedFormats": "DOCX, DOC, ODT, RTF datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "excelToPdf": {
+    "name": "Excel v PDF",
+    "subtitle": "Pretvorite Excelove preglednice (XLSX, XLS, ODS, CSV) v PDF. Podpira več datotek.",
+    "acceptedFormats": "XLSX, XLS, ODS, CSV datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "powerpointToPdf": {
+    "name": "PowerPoint v PDF",
+    "subtitle": "Pretvorite PowerPoint predstavitve (PPTX, PPT, ODP) v PDF. Podpira več datotek.",
+    "acceptedFormats": "PPTX, PPT, ODP datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "markdownToPdf": {
+    "name": "Markdown v PDF",
+    "subtitle": "Napišite ali prilepite Markdown in izvozite kot lepo oblikovan PDF.",
+    "paneMarkdown": "Markdown",
+    "panePreview": "Predogled",
+    "btnUpload": "Naloži",
+    "btnSyncScroll": "Sinhrono drsenje",
+    "btnSettings": "Nastavitve",
+    "btnExportPdf": "Izvozi PDF",
+    "settingsTitle": "Nastavitve Markdown",
+    "settingsPreset": "Prednastavitev",
+    "presetDefault": "Privzeto (podobno GFM)",
+    "presetCommonmark": "CommonMark (strogo)",
+    "presetZero": "Minimalno (brez funkcij)",
+    "settingsOptions": "Možnosti Markdown",
+    "optAllowHtml": "Dovoli HTML oznake",
+    "optBreaks": "Pretvori nove vrstice v <br>",
+    "optLinkify": "Samodejno pretvori URL-je v povezave",
+    "optTypographer": "Tipograf (pametni narekovaji itd.)"
+  },
+  "pdfBooklet": {
+    "name": "PDF Knjižica",
+    "subtitle": "Preuredite strani za dvostransko tiskanje knjižice. Zložite in spnite za ustvarjanje knjižice.",
+    "howItWorks": "Kako deluje:",
+    "step1": "Naložite PDF datoteko.",
+    "step2": "Strani bodo preurejene v vrstni red knjižice.",
+    "step3": "Natisnite dvostransko, obrnite po kratkem robu, zložite in spnite.",
+    "paperSize": "Velikost papirja",
+    "orientation": "Usmerjenost",
+    "portrait": "Pokončno",
+    "landscape": "Ležeče",
+    "pagesPerSheet": "Strani na list",
+    "createBooklet": "Ustvari knjižico",
+    "processing": "Obdelujem...",
+    "pageCount": "Število strani bo zaokroženo na večkratnik 4, če je potrebno."
+  },
+  "xpsToPdf": {
+    "name": "XPS v PDF",
+    "subtitle": "Pretvorite dokumente XPS/OXPS v PDF. Podpira več datotek.",
+    "acceptedFormats": "XPS, OXPS datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "mobiToPdf": {
+    "name": "MOBI v PDF",
+    "subtitle": "Pretvorite e-knjige MOBI v PDF. Podpira več datotek.",
+    "acceptedFormats": "MOBI datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "epubToPdf": {
+    "name": "EPUB v PDF",
+    "subtitle": "Pretvorite e-knjige EPUB v PDF. Podpira več datotek.",
+    "acceptedFormats": "EPUB datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "fb2ToPdf": {
+    "name": "FB2 v PDF",
+    "subtitle": "Pretvorite e-knjige FictionBook (FB2) v PDF. Podpira več datotek.",
+    "acceptedFormats": "FB2 datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "cbzToPdf": {
+    "name": "CBZ v PDF",
+    "subtitle": "Pretvorite arhive stripov (CBZ/CBR) v PDF. Podpira več datotek.",
+    "acceptedFormats": "CBZ, CBR datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "wpdToPdf": {
+    "name": "WPD v PDF",
+    "subtitle": "Pretvorite dokumente WordPerfect (WPD) v PDF. Podpira več datotek.",
+    "acceptedFormats": "WPD datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "wpsToPdf": {
+    "name": "WPS v PDF",
+    "subtitle": "Pretvorite dokumente WPS Office v PDF. Podpira več datotek.",
+    "acceptedFormats": "WPS datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "xmlToPdf": {
+    "name": "XML v PDF",
+    "subtitle": "Pretvorite dokumente XML v PDF. Podpira več datotek.",
+    "acceptedFormats": "XML datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "pagesToPdf": {
+    "name": "Pages v PDF",
+    "subtitle": "Pretvorite dokumente Apple Pages v PDF. Podpira več datotek.",
+    "acceptedFormats": "Pages datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "odgToPdf": {
+    "name": "ODG v PDF",
+    "subtitle": "Pretvorite datoteke OpenDocument Graphics (ODG) v PDF. Podpira več datotek.",
+    "acceptedFormats": "ODG datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "odsToPdf": {
+    "name": "ODS v PDF",
+    "subtitle": "Pretvorite datoteke OpenDocument Spreadsheet (ODS) v PDF. Podpira več datotek.",
+    "acceptedFormats": "ODS datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "odpToPdf": {
+    "name": "ODP v PDF",
+    "subtitle": "Pretvorite datoteke OpenDocument Presentation (ODP) v PDF. Podpira več datotek.",
+    "acceptedFormats": "ODP datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "pubToPdf": {
+    "name": "PUB v PDF",
+    "subtitle": "Pretvorite datoteke Microsoft Publisher (PUB) v PDF. Podpira več datotek.",
+    "acceptedFormats": "PUB datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "vsdToPdf": {
+    "name": "VSD v PDF",
+    "subtitle": "Pretvorite datoteke Microsoft Visio (VSD, VSDX) v PDF. Podpira več datotek.",
+    "acceptedFormats": "VSD, VSDX datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "psdToPdf": {
+    "name": "PSD v PDF",
+    "subtitle": "Pretvorite datoteke Adobe Photoshop (PSD) v PDF. Podpira več datotek.",
+    "acceptedFormats": "PSD datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "pdfToSvg": {
+    "name": "PDF v SVG",
+    "subtitle": "Pretvorite vsako stran PDF-ja v skalabilno vektorsko grafiko (SVG) za popolno kakovost pri kateri koli velikosti."
+  },
+  "extractTables": {
+    "name": "Izvleči tabele PDF",
+    "subtitle": "Izvlecite tabele iz PDF datotek in izvozite kot CSV, JSON ali Markdown."
+  },
+  "pdfToCsv": {
+    "name": "PDF v CSV",
+    "subtitle": "Izvlecite tabele iz PDF-ja in pretvorite v format CSV."
+  },
+  "pdfToExcel": {
+    "name": "PDF v Excel",
+    "subtitle": "Izvlecite tabele iz PDF-ja in pretvorite v format Excel (XLSX)."
+  },
+  "pdfToText": {
+    "name": "PDF v besedilo",
+    "subtitle": "Izvlecite besedilo iz PDF datotek in shranite kot navadno besedilo (.txt). Podpira več datotek.",
+    "note": "To orodje deluje SAMO z digitalno ustvarjenimi PDF-ji. Za skenirane dokumente ali PDF-je na osnovi slik uporabite orodje OCR PDF.",
+    "convertButton": "Izvleči besedilo"
+  },
+  "digitalSignPdf": {
+    "name": "Digitalni podpis PDF",
+    "pageTitle": "Digitalni podpis PDF - Dodaj kriptografski podpis | BentoPDF",
+    "subtitle": "Dodajte kriptografski digitalni podpis v PDF z uporabo certifikatov X.509. Podpira formate PKCS#12 (.pfx, .p12) in PEM. Vaš zasebni ključ nikoli ne zapusti brskalnika.",
+    "certificateSection": "Certifikat",
+    "uploadCert": "Naloži certifikat (.pfx, .p12)",
+    "certPassword": "Geslo certifikata",
+    "certPasswordPlaceholder": "Vnesite geslo certifikata",
+    "certInfo": "Informacije o certifikatu",
+    "certSubject": "Subjekt",
+    "certIssuer": "Izdajatelj",
+    "certValidity": "Veljavno",
+    "signatureDetails": "Podrobnosti podpisa (neobvezno)",
+    "reason": "Razlog",
+    "reasonPlaceholder": "npr. Odobrujem ta dokument",
+    "location": "Lokacija",
+    "locationPlaceholder": "npr. Ljubljana, Slovenija",
+    "contactInfo": "Kontaktni podatki",
+    "contactPlaceholder": "npr. email@primer.com",
+    "applySignature": "Uporabi digitalni podpis",
+    "successMessage": "PDF uspešno podpisan! Podpis je mogoče preveriti v katerem koli PDF bralcu."
+  },
+  "validateSignaturePdf": {
+    "name": "Preveri podpis PDF",
+    "pageTitle": "Preveri podpis PDF - Verificiraj digitalne podpise | BentoPDF",
+    "subtitle": "Preverite digitalne podpise v PDF datotekah. Preverite veljavnost certifikata, oglejte si podrobnosti podpisnika in potrdite celovitost dokumenta."
+  },
+  "emailToPdf": {
+    "name": "E-pošta v PDF",
+    "subtitle": "Pretvorite e-poštne datoteke (EML, MSG) v PDF. Podpira Outlookove izvoze in standardne e-poštne formate.",
+    "acceptedFormats": "EML, MSG datoteke",
+    "convertButton": "Pretvori v PDF"
+  },
+  "fontToOutline": {
+    "name": "Pisava v obriso",
+    "subtitle": "Pretvorite vse pisave v vektorske obrise za dosledno upodabljanje na vseh napravah."
+  },
+  "deskewPdf": {
+    "name": "Popravi nagib PDF",
+    "subtitle": "Samodejno poravnajte nagnjene skenirane strani z OpenCV."
+  },
+  "pdfToWord": {
+    "name": "PDF v Word",
+    "subtitle": "Pretvorite PDF datoteke v urejevalne Wordove dokumente."
+  },
+  "extractImages": {
+    "name": "Izvleči slike",
+    "subtitle": "Izvlecite vse vgrajene slike iz PDF datotek."
+  },
+  "pdfToMarkdown": {
+    "name": "PDF v Markdown",
+    "subtitle": "Pretvorite besedilo in tabele PDF v format Markdown."
+  },
+  "preparePdfForAi": {
+    "name": "Pripravi PDF za UI",
+    "subtitle": "Izvlecite vsebino PDF kot LlamaIndex JSON za RAG/LLM cevovode."
+  },
+  "pdfOcg": {
+    "name": "PDF OCG",
+    "subtitle": "Oglejte si, preklopite, dodajte in izbrišite plasti OCG v PDF-ju."
+  },
+  "pdfToPdfa": {
+    "name": "PDF v PDF/A",
+    "subtitle": "Pretvorite PDF v PDF/A za dolgoročno arhiviranje."
+  },
+  "rasterizePdf": {
+    "name": "Rastriranje PDF",
+    "subtitle": "Pretvorite PDF v PDF na osnovi slik. Sploščite plasti in odstranite izbirljivo besedilo."
+  },
+  "pdfWorkflow": {
+    "name": "Gradnik PDF delovnih tokov",
+    "subtitle": "Gradite cevovode za obdelavo PDF z vizualnim urejevalnikom vozlišč.",
+    "nodes": "Vozlišča",
+    "searchNodes": "Išči vozlišča...",
+    "run": "Zaženi",
+    "clear": "Počisti",
+    "save": "Shrani",
+    "load": "Naloži",
+    "export": "Izvozi",
+    "import": "Uvozi",
+    "ready": "Pripravljen",
+    "settings": "Nastavitve",
+    "processing": "Obdelujem...",
+    "saveTemplate": "Shrani predlogo",
+    "templateName": "Ime predloge",
+    "templatePlaceholder": "npr. Delovni tok računov",
+    "cancel": "Prekliči",
+    "loadTemplate": "Naloži predlogo",
+    "noTemplates": "Še ni shranjenih predlog.",
+    "ok": "V redu",
+    "workflowCompleted": "Delovni tok zaključen",
+    "errorDuringExecution": "Napaka med izvajanjem",
+    "addNodeError": "Dodajte vsaj eno vozlišče za zagon delovnega toka.",
+    "needInputOutput": "Vaš delovni tok potrebuje vsaj eno vhodno in eno izhodno vozlišče.",
+    "enterName": "Prosimo, vnesite ime.",
+    "templateExists": "Predloga s tem imenom že obstaja.",
+    "templateSaved": "Predloga \"{{name}}\" shranjena.",
+    "templateLoaded": "Predloga \"{{name}}\" naložena.",
+    "failedLoadTemplate": "Nalaganje predloge ni uspelo.",
+    "noSettings": "Za to vozlišče ni nastavljivih nastavitev.",
+    "advancedSettings": "Napredne nastavitve"
+  }
+}
